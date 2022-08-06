@@ -1,0 +1,148 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+* {
+  box-sizing: border-box;
+  font-size: 36px;
+}
+
+body {
+  padding: 60px 0;
+  font-family: sans-serif;
+  color: #222;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.task-input {
+  display: flex;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+.task-input__input {
+  width: 77%;
+  height: 100px;
+  padding: 28px;
+  border: 1px solid #222;
+  border-radius: 5px 0px 0px 5px;
+}
+
+.task-input__button {
+  width: 23%;
+  height: 100px;
+  background-color: #222;
+  border: none;
+  border-radius: 0px 5px 5px 0px;
+  color: #fff;
+}
+
+.tasks__task {
+  margin-bottom: 50px;
+}
+
+.tasks__task:last-child {
+  margin-bottom: 0;
+}
+
+.task {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #222;
+}
+
+.task__text {
+  line-height: 150%;
+}
+
+.task__button {
+  background-color: transparent;
+}

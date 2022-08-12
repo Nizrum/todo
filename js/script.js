@@ -7,14 +7,14 @@ let tasks = localStorage.getItem("tasks") ? localStorage.getItem("tasks").split(
 for (let t of tasks) {
     tasksList.insertAdjacentHTML(
       "beforeend",
-      `<li class="tasks__task task"><span class="task__text">${t}</span><button class="task__button"><img src="/images/check.svg" alt="X"></button></li>`
+      `<li class="tasks__task task"><span class="task__text">${t}</span><button class="task__button"><img src="images/check.svg" alt="X"></button></li>`
     );
 }
 
 function addTask(data) {
   if (data != '') {
     tasksList.insertAdjacentHTML(
-      "beforeend", `<li class="tasks__task task"><span class="task__text">${data}</span><button class="task__button"><img src="/images/check.svg" alt="X"></button></li>`
+      "beforeend", `<li class="tasks__task task"><span class="task__text">${data}</span><button class="task__button"><img src="images/check.svg" alt="X"></button></li>`
     );
     tasks.push(data);
     localStorage.setItem('tasks', tasks);
